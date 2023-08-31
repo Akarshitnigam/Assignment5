@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.container {
+    flex: 1; /* Let the container grow to fill the available space */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make sure the body fills the whole viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+
+
+
+
